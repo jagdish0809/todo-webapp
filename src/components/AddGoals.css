@@ -1,0 +1,37 @@
+.add-goals{
+    margin-top: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 30%;
+}
+.add-goals__title{
+    font-size: 15px;
+    font-weight: bolder;
+    margin-bottom: 5px;
+}
+
+.add-goals__input{
+height: 30px;
+margin-bottom: 20px;
+border: 1px solid gray;
+border-radius: 5px;
+}
+
+.add-goals__buttons{
+    height: 28px;
+    width: 20%;
+    border: none;
+    background-color: rgba(219, 13, 133, 0.759);
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 4px 8px;
+    transition: all ease 0.5s;
+    color: aliceblue;
+}
+
+.add-goals__buttons:hover{
+    background-color: rgb(219, 13, 133);
+}
