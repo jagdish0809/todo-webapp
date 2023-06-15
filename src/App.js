@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 import CourseGoalList from "./components/CourseGoals/CourseGoalList/CourseGoalList";
 import CourseInput from "./components/CourseGoals/CourseInput/CourseInput";
-import "./App.css";
+import styles from "./App.module.css";
 
 const App = () => {
   const [courseGoals, setCourseGoals] = useState([
@@ -37,10 +37,10 @@ const App = () => {
 
   return (
     <div>
-      <section id="goal-form">
+      <section id={styles.goal_form}>
         <CourseInput onAddGoal={addGoalHandler} />
       </section>
-      <section id="goals">
+      <section id={styles.goals}>
         {content}
         {/* {courseGoals.length > 0 && (
           <CourseGoalList
